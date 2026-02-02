@@ -1,0 +1,4 @@
+DIR := build
+MODE := work
+GUI := yes
+V := 0

@@ -1,0 +1,15 @@
+standard = "2008"
+
+[libraries]
+
+uvvm_util.files = [
+  'lib/uvvm/uvvm_util/*.vhd'
+]
+uvvm_util.is_third_party = true
+
+worklib.files = [
+  "source/*.vhd",
+  "source/**/*.vhd",
+  "testbench/*.vhd",
+  "testbench/**/*.vhd"
+]
